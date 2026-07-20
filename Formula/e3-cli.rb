@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 # Formula for the e3 terminal multiplexer.
-class E3 < Formula
+class E3Cli < Formula
   desc "I3-inspired terminal multiplexer"
   homepage "https://github.com/boyswan/e3"
   version "0.1.5"
