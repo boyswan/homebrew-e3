@@ -5,7 +5,7 @@
 class E3 < Formula
   desc "I3-inspired terminal multiplexer"
   homepage "https://github.com/boyswan/e3"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   depends_on :macos
@@ -14,13 +14,13 @@ class E3 < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/boyswan/e3/releases/download/v0.1.4/e3-0.1.4-Darwin-arm64.tar.gz"
-      sha256 "03ab9574bcb70d211db91b302ca787421811ffb0ddf3c6a3d6a03fa638a3abe7"
+      url "https://github.com/boyswan/e3/releases/download/v0.1.5/e3-0.1.5-Darwin-arm64.tar.gz"
+      sha256 "873de7355834c9e69be756bcdd532544b2e207536eb7a3198f5860fb9d21ce08"
     end
 
     on_intel do
-      url "https://github.com/boyswan/e3/releases/download/v0.1.4/e3-0.1.4-Darwin-x86_64.tar.gz"
-      sha256 "be411773582d3b3f858c8b022bf64ef5a36d9fe94873120d9e0d6af754098bf6"
+      url "https://github.com/boyswan/e3/releases/download/v0.1.5/e3-0.1.5-Darwin-x86_64.tar.gz"
+      sha256 "fb523f6442ccc375f74d06a26f65504cdbcf33ff95717990e5902afe18208112"
     end
   end
 

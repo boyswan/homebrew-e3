@@ -2,17 +2,17 @@
 # frozen_string_literal: true
 
 cask "e3" do
-  version "0.1.4"
+  version "0.1.5"
 
   on_arm do
-    sha256 "59dcc78d0fac7bd1a1a9ff578d208e75cb77e5733ecbde94f425de84ba404359"
+    sha256 "cd63026727d8fb275b2ccba8fb2c064a2669ee963e83778e957e5419fb777a93"
 
-    url "https://github.com/boyswan/e3/releases/download/v0.1.4/e3-0.1.4-Darwin-arm64-app.zip"
+    url "https://github.com/boyswan/e3/releases/download/v0.1.5/e3-0.1.5-Darwin-arm64-app.zip"
   end
   on_intel do
-    sha256 "7f27af72b9262114beeba8d6fde0a69458527a07f3dbe07df7ef6e5b84aca47e"
+    sha256 "835d047a83c6e620c8ac8b8b9e9616e46899a69f9bf8a3b973ee4992d116a1ee"
 
-    url "https://github.com/boyswan/e3/releases/download/v0.1.4/e3-0.1.4-Darwin-x86_64-app.zip"
+    url "https://github.com/boyswan/e3/releases/download/v0.1.5/e3-0.1.5-Darwin-x86_64-app.zip"
   end
 
   name "e3"
