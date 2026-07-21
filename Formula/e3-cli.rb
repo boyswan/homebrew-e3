@@ -1,11 +1,11 @@
 # typed: strict
 # frozen_string_literal: true
 
-# Formula for the e3 terminal multiplexer.
+# Formula for the e3 terminal multiplexer CLI.
 class E3Cli < Formula
   desc "I3-inspired terminal multiplexer"
   homepage "https://github.com/boyswan/e3"
-  version "0.1.5"
+  version "0.1.7"
   license "MIT"
 
   depends_on :macos
@@ -14,13 +14,13 @@ class E3Cli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/boyswan/e3/releases/download/v0.1.5/e3-0.1.5-Darwin-arm64.tar.gz"
-      sha256 "873de7355834c9e69be756bcdd532544b2e207536eb7a3198f5860fb9d21ce08"
+      url "https://github.com/boyswan/e3/releases/download/v0.1.7/e3-0.1.7-Darwin-arm64.tar.gz"
+      sha256 "0753bbea0208439046c4230a6492e337ad7367cbd2d6b882bcae18271a0a3979"
     end
 
     on_intel do
-      url "https://github.com/boyswan/e3/releases/download/v0.1.5/e3-0.1.5-Darwin-x86_64.tar.gz"
-      sha256 "fb523f6442ccc375f74d06a26f65504cdbcf33ff95717990e5902afe18208112"
+      url "https://github.com/boyswan/e3/releases/download/v0.1.7/e3-0.1.7-Darwin-x86_64.tar.gz"
+      sha256 "1ce3cdfac2eb2612985b77529aebe957737113178d7a24811d1cec9aad3451d6"
     end
   end
 
