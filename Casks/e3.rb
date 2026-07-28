@@ -7,12 +7,12 @@ cask "e3" do
   on_arm do
     sha256 "e11391391cd79ce6e89117fd3e41e2d411078d4c5efd85b3328aa7979e7801a2"
 
-    url "https://github.com/boyswan/e3/releases/download/v0.1.20/e3-0.1.20-Darwin-arm64-app.zip"
+    url "https://github.com/boyswan/e3/releases/download/v#{version}/e3-#{version}-Darwin-arm64-app.zip"
   end
   on_intel do
     sha256 "391bd5631c0510ab80cd619796dbe24c8025878621444d89af2747abb91c1ead"
 
-    url "https://github.com/boyswan/e3/releases/download/v0.1.20/e3-0.1.20-Darwin-x86_64-app.zip"
+    url "https://github.com/boyswan/e3/releases/download/v#{version}/e3-#{version}-Darwin-x86_64-app.zip"
   end
 
   name "e3"

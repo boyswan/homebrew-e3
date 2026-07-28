@@ -5,7 +5,6 @@
 class E3Cli < Formula
   desc "I3-inspired terminal multiplexer"
   homepage "https://github.com/boyswan/e3"
-  version "0.1.20"
   license "MIT"
 
   depends_on :macos
