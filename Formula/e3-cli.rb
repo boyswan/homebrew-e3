@@ -13,13 +13,13 @@ class E3Cli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/boyswan/e3/releases/download/v0.1.24/e3-0.1.24-Darwin-arm64.tar.gz"
-      sha256 "df5c107fa995c8297f183ef9229be6c363e871b5a6c17a5635897e359cac3858"
+      url "https://github.com/boyswan/e3/releases/download/v0.1.25/e3-0.1.25-Darwin-arm64.tar.gz"
+      sha256 "3768fe0fb069d2d131a5262ef09e3381ff6549ece89f10d0f91db0e8bd04cc0e"
     end
 
     on_intel do
-      url "https://github.com/boyswan/e3/releases/download/v0.1.24/e3-0.1.24-Darwin-x86_64.tar.gz"
-      sha256 "f91e8d7206179457be7fda3417beb1a3b7a58098e90b9d8e828dba131340702c"
+      url "https://github.com/boyswan/e3/releases/download/v0.1.25/e3-0.1.25-Darwin-x86_64.tar.gz"
+      sha256 "fce0b3c19c368d7ed4d67d105e36eb229c59911fa30e2655a35645fe8b4db126"
     end
   end
 
